@@ -1,0 +1,1304 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <title>فاب آموزشی</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./css/faabedu.css" />
+
+    <link href="./icon/css/all.css" rel="stylesheet" />
+    <link href="./font/fontiran.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body>
+    <div class="faabedu__header">
+        <div class="faabedu__header__box">
+            <div class="faabedu__header__right">
+                <div class="faabedu__header__logobox">
+                    <a href="" class="faabedu__header__logo">
+                        <span>فاب آموزشی</span>
+                    </a>
+                </div>
+
+                <div class="faabedu__header__search">
+                    <input type="text" />
+                    <i class="fas fa-search"></i>
+                </div>
+            </div>
+
+            <div class="faabedu__header__left">
+                <span>شماره پشتیبانی</span>
+                <span>021-66552233</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="navbar" class="faabedu__nav">
+        <div class="faabedu__nav__box">
+            <div class="faabedu__nav__right">
+                <div class="faabedu__nav__button__box">
+                    <button onclick="navDisplayer()" class="faabedu__nav__button">
+                        دسته بندی<i class="fas fa-angle-down"></i>
+                    </button>
+                    <div id="myDropdown" class="faabedu__nav__content">
+                        <div class="faabedu__nav__content__box">
+                            <a href="" class="faabedu__nav__content__item">کودک</a>
+                            <a href="" class="faabedu__nav__content__item">زبان های خارجی</a>
+                            <a href="" class="faabedu__nav__content__item">روانشناسی</a>
+                            <a href="" class="faabedu__nav__content__item">علوم تربیتی</a>
+                            <a href="" class="faabedu__nav__content__item">مشاوره ای</a>
+                            <a href="" class="faabedu__nav__content__item">دانشگاهی</a>
+                            <a href="" class="faabedu__nav__content__item">آموزش های مهارتی (فیزیکی)</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faabedu__nav__button__box">
+                    <button onclick="navDisplayer()" class="faabedu__nav__button">
+                        درباره ما<i class="fas fa-angle-down"></i>
+                    </button>
+                    <div id="myDropdown" class="faabedu__nav__content">
+                        <div class="faabedu__nav__content__box">
+                            <a href="" class="faabedu__nav__content__item">کودک</a>
+                            <a href="" class="faabedu__nav__content__item">زبان های خارجی</a>
+                            <a href="" class="faabedu__nav__content__item">روانشناسی</a>
+                            <a href="" class="faabedu__nav__content__item">علوم تربیتی</a>
+                            <a href="" class="faabedu__nav__content__item">مشاوره ای</a>
+                            <a href="" class="faabedu__nav__content__item">دانشگاهی</a>
+                            <a href="" class="faabedu__nav__content__item">آموزش های مهارتی (فیزیکی)</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faabedu__nav__button__box">
+                    <a href='' class="faabedu__nav__button">
+                        خرید اشتراک
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="faabedu__nav__left">
+                <a class="faabedu__nav__loginbtn" href="">ورود / ثبت نام</a>
+                <button class="faabedu__nav__user">
+                    <div class="faabedu__nav__user__btn">
+                        <span>خوش آمدید</span>
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+
+                    <div class="faabedu__nav__user__content">
+
+                        <div class="faabedu__nav__content__user__details">
+                            <div class="faabedu__nav__content__user__details__image">
+                                <img src="image/user.png" alt="User Image">
+                            </div>
+                            <div class="faabedu__nav__content__user__details__user">
+                                <span>09187452575</span>
+                            </div>
+                        </div>
+
+                        <div class="faabedu__nav__content__user__div">
+
+                            <div class="faabedu__nav__timeremaining">
+                                <span>زمان مانده از اشتراک شما</span>
+                                <p>30 روز</p>
+                            </div>
+                            <a href="" class="faabedu__nav__content__user__getpremium">
+                                خرید اشتراک</a>
+
+                        </div>
+                        <div class="faabedu__nav__content__user__btn">
+                            <a href="">خروج از حساب</a>
+                        </div>
+
+
+                    </div>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="header__bg"></div>
+
+
+
+
+
+
+
+
+
+
+    <div class="faabedu__small__header">
+        <div class="faabedu__small__header__right">
+            <a href="" class="faabedu__small__header__logo">
+                <span>فاب آموزشی</span>
+            </a>
+            <button id="faabedu__smallnav__search__btn" onclick="searchDisplayer()" type="button"><i class='fas fa-search'></i></button>
+        </div>
+        <div class="faabedu__small__header__left">
+            <span>شماره پشتیبانی</span>
+            <span>021-66552233</span>
+        </div>
+    </div>
+
+    <div id="faabedu__small__search" class="faabedu__small__search">
+        <div class="faabedu__small__search__input">
+            <input type="text">
+            <i class="fas fa-search"></i>
+        </div>
+    </div>
+
+
+
+    <div id="small__navbar" class="faabedu__small__nav">
+        <div class="faabedu__small__nav__right">
+            <button onclick="showNavigation()" type="button"><i class="fas fa-bars"></i></button>
+        </div>
+        <div class="faabedu__small__nav__left">
+            <a href="">خرید اشتراک</a>
+        </div>
+
+        <div id="faabedu__small__nav__content" class="faabedu__small__nav__content">
+
+            <div class="faabedu__small__nav__accordion__box">
+
+                <button class="faabedu__small__nav__accordion">دسته بندی<i class="fas fa-angle-left"></i></button>
+                <div class="faabedu__small__nav__panel">
+
+                    <div class="faabedu__small__nav__panel__category">
+
+                        <a href="">کودک</a>
+                        <a href="">زبان های خارجی</a>
+                        <a href="">روانشناسی</a>
+                        <a href="">علوم تربیتی</a>
+                        <a href="">مشاوره ای</a>
+                        <a href="">دانشگاهی</a>
+                        <a href="">آموزش های مهارتی (فیزیکی)</a>
+
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <div class="faabedu__small__nav__accordion__box">
+                <button class="faabedu__small__nav__accordion">درباره ما<i class="fas fa-angle-left"></i></button>
+                <div class="faabedu__small__nav__panel">
+                    <div class="faabedu__small__nav__panel__category">
+
+                        <a href="">کودک</a>
+                        <a href="">زبان های خارجی</a>
+                        <a href="">روانشناسی</a>
+                        <a href="">علوم تربیتی</a>
+                        <a href="">مشاوره ای</a>
+                        <a href="">دانشگاهی</a>
+                        <a href="">آموزش های مهارتی (فیزیکی)</a>
+
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="faabedu__small__nav__accordion__box">
+                <button class="faabedu__small__nav__accordion">خوش آمدید 09187452575<i class="fas fa-angle-left"></i></button>
+                <div class="faabedu__small__nav__panel">
+
+                    <div class="faabedu__small__nav__user">
+
+                        <div class="faabedu__nav__timeremaining">
+                            <span>زمان مانده از اشتراک شما</span>
+                            <p>30 روز</p>
+                        </div>
+                        <a href="" class="faabedu__nav__content__user__getpremium">
+                            خرید اشتراک</a>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <a href="" class="faabedu__small__nav__link">ورود / ثبت نام</a>
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+    <div class="faabedu__small__header__background"></div>
+
+
+
+    <!--
+    <div class="faabedu__nav">
+
+        <div class="faabedu__nav__box">
+            <div class="faabedu__nav__right">
+
+
+                <div class="faabedu__nav__button__box">
+                    <button onclick="navDisplayer()" class="faabedu__nav__button">دسته بندی<i class="fas fa-angle-down"></i></button>
+
+                    <button onclick="navDisplayer()" class="faabedu__nav__button">خرید اشتراک<i class="fas fa-angle-down"></i></button>
+
+                    <button onclick="navDisplayer()" class="faabedu__nav__button">درباره ما<i class="fas fa-angle-down"></i></button>
+
+
+
+
+
+
+                </div>
+            </div>
+
+            <div class="faabedu__nav__left">
+                <a href="">ورود / ثبت نام</a>
+            </div>
+        </div>
+
+
+
+
+
+
+    </div>
+
+    <div id="myDropdown" class="faabedu__nav__content">
+
+        <div class="faabedu__nav__content__box">
+            <a href='' class="faabedu__nav__content__item">کودک</a>
+            <a href='' class="faabedu__nav__content__item">زبان های خارجی</a>
+            <a href='' class="faabedu__nav__content__item">روانشناسی</a>
+            <a href='' class="faabedu__nav__content__item">علوم تربیتی</a>
+            <a href='' class="faabedu__nav__content__item">مشاوره ای</a>
+            <a href='' class="faabedu__nav__content__item">دانشگاهی</a>
+            <a href='' class="faabedu__nav__content__item">آموزش های مهارتی (فیزیکی)</a>
+
+        </div>
+    </div>
+-->
+
+    <section class="faabedu__introduction">
+        <div class="faabedu__introduction__firstbox">
+            <div class="faabedu__introduction-row">
+                <div class="faabedu__introduction__right">
+                    <div class="faabedu__introduction__right__firstbox">
+                        <h2>هر آموزشی که بخوای!</h2>
+                        <p>
+                            چه فرقی داره که دانش‌آموز کدوم پایه‌ای؟ با همکلاسی فاب می‌تونی
+                            با بهترین قیمت به برترین فیلم‌های آموزشی دسترسی پیدا کنی و لذت
+                            درس خوندنت رو چند برابر کنی برای فعال کردن اشتراکت فقط کافیه
+                            دکمه زیرو لمس کنی
+                        </p>
+
+                        <span>راه ورود اینجاست</span>
+                        <i class="fas fa-angle-down"></i>
+                    </div>
+
+                    <div class="faabedu__introduction__btnbox">
+                        <a href="">اشتراکتو فعال کن</a>
+                    </div>
+                </div>
+                <div class="faabedu__introduction__left">
+                    <div class="faabedu__introduction__left__video">
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="faabedu__introduction__search">
+
+            <div class="faabedu__introduction__search__box">
+                <h2>امروز دوست داری چی شروع کنی ...</h2>
+                <div class="faabedu__introduction__search__input">
+                    <input type="text" name="" placeholder="فیلم آموزشی ریاضی پیش دانشگاهی">
+                    <button type="button">جستجو</button>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+        <div class="faabedu__introduction__secondbox">
+            <div class="faabedu__introduction__secondbox__row">
+                <div class="faabedu__introduction__secondbox__title">
+                    <h2>تازه ترین ها</h2>
+                </div>
+
+                <div id="faabedu__introduction__secondbox__cardbox" class="faabedu__introduction__secondbox__cardbox">
+
+
+
+
+
+
+
+                    <div class="faabedu__introduction__secondbox__card">
+                        <div class="faabedu__introduction__secondbox__card__details">
+                            <div class="faabedu__introduction__secondbox__card__details__title">
+                                <h3>آموزش ساخت موکاپ حرفه‌ای</h3>
+                                <p>چاپگرها و متون بلکه روزنامه و چاپگرها و متون بلکه روزنامه و مجله در مجله در چاپگرها و متون بلکه روزنامه و مجله در چاپگرها ه و مجله چاپگرها ه و مجله د چاپگرها ه و مجله ددر چاپگرهاه و مجله در چاپگرهاه و مجله در چاپگرها و متون </p>
+                            </div>
+                            <div class="faabedu__introduction__secondbox__card__details__footer">
+                                <a href="" class="">تماشای ویدیو</a>
+                            </div>
+                        </div>
+                        <div class="faabedu__introduction__secondbox__card__img">
+                            <img src="image/wqer23.png" />
+                        </div>
+                    </div>
+
+                    <div class="faabedu__introduction__secondbox__card">
+                        <div class="faabedu__introduction__secondbox__card__details">
+                            <div class="faabedu__introduction__secondbox__card__details__title">
+                                <h3>آموزش ساخت موکاپ حرفه‌ای</h3>
+                                <p>چاپگرها و متون بلکه روزنامه و مجله در</p>
+                            </div>
+                            <div class="faabedu__introduction__secondbox__card__details__footer">
+                                <a href="" class="">تماشای ویدیو</a>
+                            </div>
+                        </div>
+                        <div class="faabedu__introduction__secondbox__card__img">
+                            <img src="image/wqer23.png" />
+                        </div>
+                    </div>
+
+                    <div class="faabedu__introduction__secondbox__card">
+                        <div class="faabedu__introduction__secondbox__card__details">
+                            <div class="faabedu__introduction__secondbox__card__details__title">
+                                <h3>آموزش ساخت موکاپ حرفه‌ای</h3>
+                                <p>چاپگرها و متون بلکه روزنامه و مجله در</p>
+                            </div>
+                            <div class="faabedu__introduction__secondbox__card__details__footer">
+                                <a href="" class="">تماشای ویدیو</a>
+                            </div>
+                        </div>
+                        <div class="faabedu__introduction__secondbox__card__img">
+                            <img src="image/wqer23.png" />
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="introduction__bottom"></div>
+
+
+
+
+
+
+
+
+
+
+    <section class="slider">
+        <div class="slider__box">
+
+            <div class="slider__title">
+                <div class='slider__title__right'>
+                    <h2>کودک</h2>
+                    <button id="slide" type="button" class="faabedu__sliderbtn__right"><i class="fas fa-angle-right"></i></button>
+                    <button id="slide" type="button" class="faabedu__sliderbtn__left"><i class="fas fa-angle-left"></i></button>
+                </div>
+                
+                <a href="">مشاهده همه <i class="fas fa-angle-left"></i></a>
+            </div>
+            <div class="slider__content">
+
+                
+
+
+                <div id="slider__cardbox" class="slider__cardbox">
+
+                    <div class="slider__card">
+                        <div class="slider__card__image">
+                            <img src="image/Slider%20(1).jpg" />
+                        </div>
+                        <div class="slider__card__btnbox">
+                            <a href=""><i class="fas fa-play"></i></a>
+                        </div>
+                        <div class="slider__card__details">
+                            <h3>آموزش ساخت موکاپ حرفه‌ای</h3>
+                            <p>چاپگرها و متون بلکه روزنامه و مجله در</p>
+                        </div>
+                        <div class="slider__card__footer">
+                            <span>4<i class="fas fa-star"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="slider__card">
+                        <div class="slider__card__image">
+                            <img src="image/Slider%20(2).jpg" />
+                        </div>
+                        <div class="slider__card__btnbox">
+                            <a href=""><i class="fas fa-play"></i></a>
+                        </div>
+                        <div class="slider__card__details">
+                            <h3> چگونه طراح UI/UX شویم؟  چگونه طراح UI/UX شویم؟ چگونه طراح UI/UX شویم؟</h3>
+                            <p>چاپگرها و متون بلکه روزنامه و مجله درچاپگرها و متون بلکه روزنامه و مجله در چاپگرها و متون بلکه روزنامه و مجله در چاپگرها و متون بلکه روزنامه و مجله در چاپگرها و متون بلکه روزنامه و مجله در</p>
+                        </div>
+                        <div class="slider__card__footer">
+                            <span>4<i class="fas fa-star"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="slider__card">
+                        <div class="slider__card__image">
+                            <img src="image/Slider%20(3).jpg" />
+                        </div>
+                        <div class="slider__card__btnbox">
+                            <a href=""><i class="fas fa-play"></i></a>
+                        </div>
+                        <div class="slider__card__details">
+                            <h3>کتاب طراحی احساسی</h3>
+                            <p> چاپگرها و متون بلکه روزنامه و مجله در چاپگرها و متون بلکه روزنامه و مجله در</p>
+                        </div>
+                        <div class="slider__card__footer">
+                            <span>4<i class="fas fa-star"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="slider__card">
+                        <div class="slider__card__image">
+                            <img src="image/Slider%20(4).jpg" />
+                        </div>
+                        <div class="slider__card__btnbox">
+                            <a href=""><i class="fas fa-play"></i></a>
+                        </div>
+                        <div class="slider__card__details">
+                            <h3>آموزش ساخت موکاپ حرفه‌ای</h3>
+                            <p>چاپگرها و متون بلکه روزنامه و مجله در</p>
+                        </div>
+                        <div class="slider__card__footer">
+                            <span>4<i class="fas fa-star"></i></span>
+                        </div>
+                    </div>
+
+
+                    <div class="slider__card">
+                        <div class="slider__card__image">
+                            <img src="image/Slider%20(5).jpg" />
+                        </div>
+                        <div class="slider__card__btnbox">
+                            <a href=""><i class="fas fa-play"></i></a>
+                        </div>
+                        <div class="slider__card__details">
+                            <h3>آموزش ساخت موکاپ حرفه‌ای</h3>
+                            <p> چاپگرها و متون بلکه روزنامه و مجله در چاپگرها و متون بلکه روزنامه و مجله در</p>
+                        </div>
+                        <div class="slider__card__footer">
+                            <span>4<i class="fas fa-star"></i></span>
+                        </div>
+                    </div>
+
+
+                    <div class="slider__card">
+                        <div class="slider__card__image">
+                            <img src="image/vyq26md5yfoq.png" />
+                        </div>
+                        <div class="slider__card__btnbox">
+                            <a href=""><i class="fas fa-play"></i></a>
+                        </div>
+                        <div class="slider__card__details">
+                            <h3>آموزش ساخت موکاپ حرفه‌ای</h3>
+                            <p>چاپگرها و متون بلکه روزنامه و مجله در</p>
+                        </div>
+                        <div class="slider__card__footer">
+                            <span>4<i class="fas fa-star"></i></span>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                
+
+            </div>
+
+
+        </div>
+    </section>
+    
+    
+    
+    
+    
+    
+    <section class="slider">
+        <div class="slider__box">
+
+            <div class="slider__title">
+                <div class='slider__title__right'>
+                    <h2>زبان های خارجه</h2>
+                    <button id="slide" type="button" class="faabedu__sliderbtn__right"><i class="fas fa-angle-right"></i></button>
+                    <button id="slide" type="button" class="faabedu__sliderbtn__left"><i class="fas fa-angle-left"></i></button>
+                </div>
+                
+                <a href="">مشاهده همه <i class="fas fa-angle-left"></i></a>
+            </div>
+            <div class="slider__content">
+
+                
+
+
+                <div id="slider__cardbox" class="slider__cardbox">
+
+                    <div class="slider__card">
+                        <div class="slider__card__image">
+                            <img src="image/Slider%20(1).jpg" />
+                        </div>
+                        <div class="slider__card__btnbox">
+                            <a href=""><i class="fas fa-play"></i></a>
+                        </div>
+                        <div class="slider__card__details">
+                            <h3>آموزش ساخت موکاپ حرفه‌ای</h3>
+                            <p>چاپگرها و متون بلکه روزنامه و مجله در</p>
+                        </div>
+                        <div class="slider__card__footer">
+                            <span>4<i class="fas fa-star"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="slider__card">
+                        <div class="slider__card__image">
+                            <img src="image/Slider%20(2).jpg" />
+                        </div>
+                        <div class="slider__card__btnbox">
+                            <a href=""><i class="fas fa-play"></i></a>
+                        </div>
+                        <div class="slider__card__details">
+                            <h3> چگونه طراح UI/UX شویم؟  چگونه طراح UI/UX شویم؟ چگونه طراح UI/UX شویم؟</h3>
+                            <p>چاپگرها و متون بلکه روزنامه و مجله درچاپگرها و متون بلکه روزنامه و مجله در چاپگرها و متون بلکه روزنامه و مجله در چاپگرها و متون بلکه روزنامه و مجله در چاپگرها و متون بلکه روزنامه و مجله در</p>
+                        </div>
+                        <div class="slider__card__footer">
+                            <span>4<i class="fas fa-star"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="slider__card">
+                        <div class="slider__card__image">
+                            <img src="image/Slider%20(3).jpg" />
+                        </div>
+                        <div class="slider__card__btnbox">
+                            <a href=""><i class="fas fa-play"></i></a>
+                        </div>
+                        <div class="slider__card__details">
+                            <h3>کتاب طراحی احساسی</h3>
+                            <p> چاپگرها و متون بلکه روزنامه و مجله در چاپگرها و متون بلکه روزنامه و مجله در</p>
+                        </div>
+                        <div class="slider__card__footer">
+                            <span>4<i class="fas fa-star"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="slider__card">
+                        <div class="slider__card__image">
+                            <img src="image/Slider%20(4).jpg" />
+                        </div>
+                        <div class="slider__card__btnbox">
+                            <a href=""><i class="fas fa-play"></i></a>
+                        </div>
+                        <div class="slider__card__details">
+                            <h3>آموزش ساخت موکاپ حرفه‌ای</h3>
+                            <p>چاپگرها و متون بلکه روزنامه و مجله در</p>
+                        </div>
+                        <div class="slider__card__footer">
+                            <span>4<i class="fas fa-star"></i></span>
+                        </div>
+                    </div>
+
+
+                    <div class="slider__card">
+                        <div class="slider__card__image">
+                            <img src="image/Slider%20(5).jpg" />
+                        </div>
+                        <div class="slider__card__btnbox">
+                            <a href=""><i class="fas fa-play"></i></a>
+                        </div>
+                        <div class="slider__card__details">
+                            <h3>آموزش ساخت موکاپ حرفه‌ای</h3>
+                            <p> چاپگرها و متون بلکه روزنامه و مجله در چاپگرها و متون بلکه روزنامه و مجله در</p>
+                        </div>
+                        <div class="slider__card__footer">
+                            <span>4<i class="fas fa-star"></i></span>
+                        </div>
+                    </div>
+
+
+                    <div class="slider__card">
+                        <div class="slider__card__image">
+                            <img src="image/vyq26md5yfoq.png" />
+                        </div>
+                        <div class="slider__card__btnbox">
+                            <a href=""><i class="fas fa-play"></i></a>
+                        </div>
+                        <div class="slider__card__details">
+                            <h3>آموزش ساخت موکاپ حرفه‌ای</h3>
+                            <p>چاپگرها و متون بلکه روزنامه و مجله در</p>
+                        </div>
+                        <div class="slider__card__footer">
+                            <span>4<i class="fas fa-star"></i></span>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                
+
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    <section class="faabedu__whyfaab">
+
+        <div class="faabedu__whyfaab__box">
+
+            <h2>چرا فاب آموزشی رو انتخاب کنیم؟</h2>
+
+            <span>چون می تونیم</span>
+            <ul>
+                <li>از اساتید با تجربه بهره ببریم</li>
+                <li>توی کلاس هایی مشابه کلاس های حضوری شرکت کنیم</li>
+                <li>نسبت به کلاس حضوری هزینه و زمان کم تری صرف کنیم</li>
+                <li>بارها و بارها آموزش ببینیم</li>
+            </ul>
+
+        </div>
+
+
+
+    </section>
+    
+    
+    
+    
+    <section class="slider">
+        <div class="slider__box">
+
+            <div class="slider__title">
+                <div class='slider__title__right'>
+                    <h2>زبان های خارجه</h2>
+                    <button id="slide" type="button" class="faabedu__sliderbtn__right"><i class="fas fa-angle-right"></i></button>
+                    <button id="slide" type="button" class="faabedu__sliderbtn__left"><i class="fas fa-angle-left"></i></button>
+                </div>
+                
+                <a href="">مشاهده همه <i class="fas fa-angle-left"></i></a>
+            </div>
+            <div class="slider__content">
+
+                
+
+
+                <div id="slider__cardbox" class="slider__cardbox">
+
+                    <div class="slider__card">
+                        <div class="slider__card__image">
+                            <img src="image/Slider%20(1).jpg" />
+                        </div>
+                        <div class="slider__card__btnbox">
+                            <a href=""><i class="fas fa-play"></i></a>
+                        </div>
+                        <div class="slider__card__details">
+                            <h3>آموزش ساخت موکاپ حرفه‌ای</h3>
+                            <p>چاپگرها و متون بلکه روزنامه و مجله در</p>
+                        </div>
+                        <div class="slider__card__footer">
+                            <span>4<i class="fas fa-star"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="slider__card">
+                        <div class="slider__card__image">
+                            <img src="image/Slider%20(2).jpg" />
+                        </div>
+                        <div class="slider__card__btnbox">
+                            <a href=""><i class="fas fa-play"></i></a>
+                        </div>
+                        <div class="slider__card__details">
+                            <h3> چگونه طراح UI/UX شویم؟  چگونه طراح UI/UX شویم؟ چگونه طراح UI/UX شویم؟</h3>
+                            <p>چاپگرها و متون بلکه روزنامه و مجله درچاپگرها و متون بلکه روزنامه و مجله در چاپگرها و متون بلکه روزنامه و مجله در چاپگرها و متون بلکه روزنامه و مجله در چاپگرها و متون بلکه روزنامه و مجله در</p>
+                        </div>
+                        <div class="slider__card__footer">
+                            <span>4<i class="fas fa-star"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="slider__card">
+                        <div class="slider__card__image">
+                            <img src="image/Slider%20(3).jpg" />
+                        </div>
+                        <div class="slider__card__btnbox">
+                            <a href=""><i class="fas fa-play"></i></a>
+                        </div>
+                        <div class="slider__card__details">
+                            <h3>کتاب طراحی احساسی</h3>
+                            <p> چاپگرها و متون بلکه روزنامه و مجله در چاپگرها و متون بلکه روزنامه و مجله در</p>
+                        </div>
+                        <div class="slider__card__footer">
+                            <span>4<i class="fas fa-star"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="slider__card">
+                        <div class="slider__card__image">
+                            <img src="image/Slider%20(4).jpg" />
+                        </div>
+                        <div class="slider__card__btnbox">
+                            <a href=""><i class="fas fa-play"></i></a>
+                        </div>
+                        <div class="slider__card__details">
+                            <h3>آموزش ساخت موکاپ حرفه‌ای</h3>
+                            <p>چاپگرها و متون بلکه روزنامه و مجله در</p>
+                        </div>
+                        <div class="slider__card__footer">
+                            <span>4<i class="fas fa-star"></i></span>
+                        </div>
+                    </div>
+
+
+                    <div class="slider__card">
+                        <div class="slider__card__image">
+                            <img src="image/Slider%20(5).jpg" />
+                        </div>
+                        <div class="slider__card__btnbox">
+                            <a href=""><i class="fas fa-play"></i></a>
+                        </div>
+                        <div class="slider__card__details">
+                            <h3>آموزش ساخت موکاپ حرفه‌ای</h3>
+                            <p> چاپگرها و متون بلکه روزنامه و مجله در چاپگرها و متون بلکه روزنامه و مجله در</p>
+                        </div>
+                        <div class="slider__card__footer">
+                            <span>4<i class="fas fa-star"></i></span>
+                        </div>
+                    </div>
+
+
+                    <div class="slider__card">
+                        <div class="slider__card__image">
+                            <img src="image/vyq26md5yfoq.png" />
+                        </div>
+                        <div class="slider__card__btnbox">
+                            <a href=""><i class="fas fa-play"></i></a>
+                        </div>
+                        <div class="slider__card__details">
+                            <h3>آموزش ساخت موکاپ حرفه‌ای</h3>
+                            <p>چاپگرها و متون بلکه روزنامه و مجله در</p>
+                        </div>
+                        <div class="slider__card__footer">
+                            <span>4<i class="fas fa-star"></i></span>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                
+
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+    
+    <section class="faabedu__presentation">
+        <div class="faabedu__presentation__box">
+            <div class="faabedu__presentation__right">
+                <img src="image/XMLID_2493_.png" alt="" />
+            </div>
+            <div class="faabedu__presentation__left">
+                <h2>مزایای آموزش آنلاین</h2>
+
+                <p>تجربه حسی جذاب تر</p>
+                <p>درک بهتر اطلاعات تصویری</p>
+                <p>امکان پردازش موثرتر و یادآوری بهتر و موثرتر</p>
+            </div>
+        </div>
+    </section>
+
+    
+
+
+
+
+<section class="slider">
+        <div class="slider__box">
+
+            <div class="slider__title">
+                <div class='slider__title__right'>
+                    <h2>زبان های خارجه</h2>
+                    <button id="slide" type="button" class="faabedu__sliderbtn__right"><i class="fas fa-angle-right"></i></button>
+                    <button id="slide" type="button" class="faabedu__sliderbtn__left"><i class="fas fa-angle-left"></i></button>
+                </div>
+                
+                <a href="">مشاهده همه <i class="fas fa-angle-left"></i></a>
+            </div>
+            <div class="slider__content">
+
+                
+
+
+                <div id="slider__cardbox" class="slider__cardbox">
+
+                    <div class="slider__card">
+                        <div class="slider__card__image">
+                            <img src="image/Slider%20(1).jpg" />
+                        </div>
+                        <div class="slider__card__btnbox">
+                            <a href=""><i class="fas fa-play"></i></a>
+                        </div>
+                        <div class="slider__card__details">
+                            <h3>آموزش ساخت موکاپ حرفه‌ای</h3>
+                            <p>چاپگرها و متون بلکه روزنامه و مجله در</p>
+                        </div>
+                        <div class="slider__card__footer">
+                            <span>4<i class="fas fa-star"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="slider__card">
+                        <div class="slider__card__image">
+                            <img src="image/Slider%20(2).jpg" />
+                        </div>
+                        <div class="slider__card__btnbox">
+                            <a href=""><i class="fas fa-play"></i></a>
+                        </div>
+                        <div class="slider__card__details">
+                            <h3> چگونه طراح UI/UX شویم؟  چگونه طراح UI/UX شویم؟ چگونه طراح UI/UX شویم؟</h3>
+                            <p>چاپگرها و متون بلکه روزنامه و مجله درچاپگرها و متون بلکه روزنامه و مجله در چاپگرها و متون بلکه روزنامه و مجله در چاپگرها و متون بلکه روزنامه و مجله در چاپگرها و متون بلکه روزنامه و مجله در</p>
+                        </div>
+                        <div class="slider__card__footer">
+                            <span>4<i class="fas fa-star"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="slider__card">
+                        <div class="slider__card__image">
+                            <img src="image/Slider%20(3).jpg" />
+                        </div>
+                        <div class="slider__card__btnbox">
+                            <a href=""><i class="fas fa-play"></i></a>
+                        </div>
+                        <div class="slider__card__details">
+                            <h3>کتاب طراحی احساسی</h3>
+                            <p> چاپگرها و متون بلکه روزنامه و مجله در چاپگرها و متون بلکه روزنامه و مجله در</p>
+                        </div>
+                        <div class="slider__card__footer">
+                            <span>4<i class="fas fa-star"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="slider__card">
+                        <div class="slider__card__image">
+                            <img src="image/Slider%20(4).jpg" />
+                        </div>
+                        <div class="slider__card__btnbox">
+                            <a href=""><i class="fas fa-play"></i></a>
+                        </div>
+                        <div class="slider__card__details">
+                            <h3>آموزش ساخت موکاپ حرفه‌ای</h3>
+                            <p>چاپگرها و متون بلکه روزنامه و مجله در</p>
+                        </div>
+                        <div class="slider__card__footer">
+                            <span>4<i class="fas fa-star"></i></span>
+                        </div>
+                    </div>
+
+
+                    <div class="slider__card">
+                        <div class="slider__card__image">
+                            <img src="image/Slider%20(5).jpg" />
+                        </div>
+                        <div class="slider__card__btnbox">
+                            <a href=""><i class="fas fa-play"></i></a>
+                        </div>
+                        <div class="slider__card__details">
+                            <h3>آموزش ساخت موکاپ حرفه‌ای</h3>
+                            <p> چاپگرها و متون بلکه روزنامه و مجله در چاپگرها و متون بلکه روزنامه و مجله در</p>
+                        </div>
+                        <div class="slider__card__footer">
+                            <span>4<i class="fas fa-star"></i></span>
+                        </div>
+                    </div>
+
+
+                    <div class="slider__card">
+                        <div class="slider__card__image">
+                            <img src="image/vyq26md5yfoq.png" />
+                        </div>
+                        <div class="slider__card__btnbox">
+                            <a href=""><i class="fas fa-play"></i></a>
+                        </div>
+                        <div class="slider__card__details">
+                            <h3>آموزش ساخت موکاپ حرفه‌ای</h3>
+                            <p>چاپگرها و متون بلکه روزنامه و مجله در</p>
+                        </div>
+                        <div class="slider__card__footer">
+                            <span>4<i class="fas fa-star"></i></span>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                
+
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+
+
+    
+
+    <section class="faabedu__gproadmap">
+        <div class="faabedu__gproadmap__box">
+            <div class="faabedu__gproadmap__title">
+                <h2>نحوه خرید اشتراک</h2>
+            </div>
+            <div class="faabedu__gproadmap__feature">
+                <div class="faabedu__gproadmap__feature__row">
+                    <div class="faabedu__gproadmap__feature__card">
+                        <div class="faabedu__gproadmap__feature__card__img">
+                            <img src="image/tasks.png" />
+                        </div>
+                        <div class="faabedu__gproadmap__feature__card__title">
+                            <h3>ایجاد حساب کاربری</h3>
+                        </div>
+                    </div>
+
+                    <div class="faabedu__gproadmap__feature__card">
+                        <div class="faabedu__gproadmap__feature__card__img">
+                            <img src="image/chatting.png" />
+                        </div>
+                        <div class="faabedu__gproadmap__feature__card__title">
+                            <h3>ورود به حساب کاربری</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="faabedu__gproadmap__feature__row">
+                    <div class="faabedu__gproadmap__feature__card">
+                        <div class="faabedu__gproadmap__feature__card__img">
+                            <img src="image/buy.png" />
+                        </div>
+                        <div class="faabedu__gproadmap__feature__card__title">
+                            <h3>انتخاب اشتراک دلخواه</h3>
+                        </div>
+                    </div>
+
+                    <div class="faabedu__gproadmap__feature__card">
+                        <div class="faabedu__gproadmap__feature__card__img">
+                            <img src="image/purse.png" />
+                        </div>
+                        <div class="faabedu__gproadmap__feature__card__title">
+                            <h3>تسویه حساب</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="faabedu__gproadmap__deatils">
+                <p>
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                    استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
+                    ستون و سطرلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                    و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله
+                    در ستون و سطر
+                </p>
+            </div>
+            <div class="faabedu__gproadmap__footer">
+                <div class="faabedu__gproadmap__footer__right">
+                    <div class="faabedu__gproadmap__footer__right__row">
+                        <div class="faabedu__gproadmap__footer__right__item">
+                            <h4>اشتراک 1 ماهه</h4>
+                            <p>10/000<span>(تومان)</span></p>
+                        </div>
+
+                        <div class="faabedu__gproadmap__footer__right__item">
+                            <h4>اشتراک 2 ماهه</h4>
+                            <p>20/000<span>(تومان)</span></p>
+                        </div>
+                    </div>
+
+                    <div class="faabedu__gproadmap__footer__right__row">
+                        <div class="faabedu__gproadmap__footer__right__item">
+                            <h4>اشتراک 3 ماهه</h4>
+                            <p>30/000<span>(تومان)</span></p>
+                        </div>
+
+                        <div class="faabedu__gproadmap__footer__right__item" style="border: none">
+                            <h4>اشتراک 4 ماهه</h4>
+                            <p>40/000<span>(تومان)</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faabedu__gproadmap__footer__left">
+                    <a href="">خرید اشتراک</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faabedu__faq">
+        <div class="faabedu__faq-div">
+            <h2>پرسش های متداول</h2>
+
+            <div class="faabedu__faq__item-box">
+                <div class="faabedu__faq__item">
+                    <h4>بسته های معلم خصوصی پرش شامل چه چیز هایی میشه؟</h4>
+                    <p>
+                        هر بسته معلم خصوصی پرش محتوایی شامل چندین لوح فشرده و یک کتاب کمک
+                        درسی میشه اطلاعات کامل بسته ها رو میتونید از اینجا مشاهده کنید
+                    </p>
+                </div>
+
+                <div class="faabedu__faq__item">
+                    <h4>چطور می تونم در سایت ثبت نام کنم؟</h4>
+                    <p>
+                        ابتدا از طریق ناحیه کاربری در بالای صفحه وارد قسمت ثبت نام در سایت
+                        شوید و تمام قسمت های مورد نیاز را به دقت پر کنید . پس از نمایش
+                        پیغام موفقیت از طریق دکمه ورود به سایت نام کاربری و رمز عبوری که
+                        انتخاب کردید در بخش های مربوطه بنویسید و وارد سایت شوید
+                    </p>
+                </div>
+
+                <div class="faabedu__faq__item">
+                    <h4>آیا می تونم از طریق سایت مشاوره دریافت کنم؟</h4>
+                    <p>
+                        ارتباط با مشاوران از طریق سایت تنها برای آن دسته از عزیزانی است که
+                        پکیج کامل معلم خصوصیپرش را دریافت کرده اند و می توانند بعد از ثبت
+                        نام در سایت از طریق حساب کاربری وارد قسمت تیکت ها شوند و یک تیکت
+                        جدید ارسال کنند . در این بخش گزینه درخواست مشاوره تحصیلی را نتخاب
+                        کرده و با وارد کردن پرش کد اختصاصی مستقیما با یکی از مشاوران گروه
+                        آموزشی پرش در ارتباط باشند
+                    </p>
+                </div>
+
+                <div class="faabedu__faq__item">
+                    <h4>چطور می تونم با خدمات پس از فروش ارتباط برقرار کنم؟</h4>
+                    <p>
+                        در صورتی که نتوانستید پاسخ به سوالات خودتان را از طریق راهنمای
+                        سایت پیدا کنید ، ابتدا در سایت ثبت نام کرده و از طریق حساب کاربری
+                        وارد قسمت تیکت ها شوید و یک تیکت جدید ارسال کنید در بخش تیکت جدید
+                        گزینه پشتیبانی محصولات را انتخاب کرده و با وارد کردن پرش کد
+                        اختصاصی درخواست خود را مطرح کنید و منتظر پاسخ بمانید
+                    </p>
+                </div>
+
+                <div class="faabedu__faq__item">
+                    <h4>پرش کد چیست و از کجا بگیرم؟</h4>
+                    <p>
+                        بعد از تهیه بسته های معلم خصوصی پرش یک کد اختصاصی برای خرید شما در
+                        سیستم ثبت میشود این کد بر روی جعبه دریافتی نوشته شده در صورتی که
+                        این کد را گم کردید برای دریافت مجدد آن با خدمات پس از فروش ارتباط
+                        برقرار کنید
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <div class="faabedu__footer__top"></div>
+
+
+
+    <footer class="faabedu__footer">
+        <div class="faabedu__footer__box">
+            <div class="faabedu__footer__firstbox">
+                <div class="faabedu__footer__firstbox__title">
+                    <h3>نحوه خرید اشتراک</h3>
+                    <p>
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                        استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
+                        ستون و سطر
+                    </p>
+                </div>
+                <div class="faabedu__footer__firstbox__details">
+                    <div class="faabedu__footer__firstbox__details__right">
+                        <div class="faabedu__footer__premium">
+                            <div class="faabedu__footer__premium__item">
+                                <h4>اشتراک یک ماهه</h4>
+                                <p>10/000 <span>(تومان)</span></p>
+                            </div>
+
+                            <div class="faabedu__footer__premium__item">
+                                <h4>اشتراک یک ماهه</h4>
+                                <p>10/000 <span>(تومان)</span></p>
+                            </div>
+
+                            <div class="faabedu__footer__premium__item">
+                                <h4>اشتراک یک ماهه</h4>
+                                <p>10/000 <span>(تومان)</span></p>
+                            </div>
+
+                            <div class="faabedu__footer__premium__item">
+                                <h4>اشتراک یک ماهه</h4>
+                                <p>10/000 <span>(تومان)</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faabedu__footer__firstbox__details__left">
+                        <div class="faabedu__footer__premium__btn">
+                            <a href="">خرید اشتراک</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faabedu__footer__firstbox__about">
+                    <div class="faabedu__footer__firstbox__about__right">
+                        <div class="faabedu__footer__firstbox__about__title">
+                            <h4>همکلاسی <span>فاب</span> چیست؟</h4>
+                            <p>
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                                استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و
+                                مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تک لورم
+                                ایپسوم متن ساختگی
+                                با تولید سادگی نامفهوم از صنعت چاپ و با
+                                استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و
+                                مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تک
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faabedu__footer__firstbox__about__left">
+                        <div class="faabedu__footer__certificate__box">
+                            <div class="faabedu__footer__certificate">
+                                <img src="image/samandehi.png" />
+                            </div>
+                            <div class="faabedu__footer__certificate">
+                                <img src="image/e-namad-star2.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="faabedu__footer__secondbox">
+                <div class="faabedu__footer__secondbox__firstbox">
+                    <div class="faabedu__footer__secondbox__item">
+                        <div class="faabedu__footer__secondbox__item__title">
+                            <h3>ارتباط با ما</h3>
+                        </div>
+
+                        <div class="faabedu__footer__secondbox__item__details">
+                            <div class="faabedu__footer__secondbox__item__details__item">
+                                <img src="./image/call.png" />
+                                <span>09376522326</span>
+                                <span>09376522326</span>
+                            </div>
+
+                            <div class="faabedu__footer__secondbox__item__details__item">
+                                <img src="./image/open-email.png" />
+                                <span>heydarimohsen71@gamil.com</span>
+                            </div>
+
+                            <div class="faabedu__footer__secondbox__item__details__item">
+                                <img src="./image/pin.png" />
+                                <span>تهران/جمهوری بین کارگر و میدان جمهوری ساختمان ماندگار</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faabedu__footer__secondbox__item">
+                        <div class="faabedu__footer__secondbox__item__title">
+                            <h3>دسته بندی ها</h3>
+                        </div>
+
+                        <div class="faabedu__footer__secondbox__item__details">
+                            <div class="faabedu__footer__secondbox__item__details__row">
+                                <a href="" class="faabedu__footer__secondbox__tag">آموزش های مهارتی (فیزیکی)</a>
+
+                                <a href="" class="faabedu__footer__secondbox__tag">دانشگاهی</a>
+
+                                <a href="" class="faabedu__footer__secondbox__tag">روانشناسی</a>
+
+                                <a href="" class="faabedu__footer__secondbox__tag">علوم تربیتی</a>
+
+                                <a href="" class="faabedu__footer__secondbox__tag">مشاوره ای</a>
+
+                                <a href="" class="faabedu__footer__secondbox__tag">زبان های خارجی</a>
+
+                                <a href="" class="faabedu__footer__secondbox__tag">کودک</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="faabedu__footer__secondbox__secondbox">
+                    <div class="faabedu__footer__secondbox__item">
+                        <div class="faabedu__footer__secondbox__item__title">
+                            <h3>ما را دنبال کنید</h3>
+                        </div>
+
+                        <div class="faabedu__footer__secondbox__item__details">
+                            <div class="faabedu__footer__secondbox__item__details__row">
+                                <a href="" class="faabedu__footer__secondbox__secondbox__contact"><img src="./image/whatsapp.png" alt="" /></a>
+                                <a href="" class="faabedu__footer__secondbox__secondbox__contact"><img src="./image/twitter.png" alt="" /></a>
+                                <a href="" class="faabedu__footer__secondbox__secondbox__contact"><img src="./image/instagram.png" alt="" /></a>
+                                <a href="" class="faabedu__footer__secondbox__secondbox__contact"><img src="./image/telegram.png" alt="" /></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faabedu__footer__secondbox__item">
+                        <div class="faabedu__footer__secondbox__item__title">
+                            <h3>بیشتر بخوانید</h3>
+                        </div>
+
+                        <div class="faabedu__footer__secondbox__item__details">
+                            <a href="" class="faabedu__footer__secondbox__item__details__link">قوانین و مقررات</a>
+                            <a href="" class="faabedu__footer__secondbox__item__details__link">نحوه خرید اشتراک</a>
+                            <a href="" class="faabedu__footer__secondbox__item__details__link">نحوه پشتیبانی</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/faabedu__header.js"></script>
+
+</body></html>

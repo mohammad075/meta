@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <title>همکلاسی فاب</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/index.css">
+    <link href="./icon/css/all.css" rel="stylesheet">
+    <link href="./font/fontiran.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+
+
+    <div class="ssb__background">
+
+        <section class="premium">
+
+            <form class="premium__form">
+                <div class="premium__header">
+                    <span>خرید اشتراک</span>
+                </div>
+
+                <div class="premium__body">
+                    <div id='premium__body__box1' class="premium__body__box">
+
+                        <span id='premium__body__level1' class="premium__body__level">1</span>
+                        <div class="premium__body__box__title">
+                            <label for="premium__grade">مقطع تحصیلی رو انتخاب کن</label>
+                        </div>
+                        <div class="premium__body__box__content">
+                            <select name="premium__grade" id="premium__grade" onchange="validateGrade()">
+
+                                <option value="0">انتخاب کنید</option>
+                                <optgroup label="دبستان">
+                                    <option value="1">اول</option>
+                                    <option value="2">دوم</option>
+                                    <option value="3">سوم</option>
+                                    <option value="4">چهارم</option>
+                                    <option value="5">پنجم</option>
+                                    <option value="6">ششم</option>
+                                </optgroup>
+
+                                <optgroup label="متوسطه اول">
+                                    <option value="7">هفتم</option>
+                                    <option value="8">هشتم</option>
+                                    <option value="9">نهم</option>
+                                </optgroup>
+
+                                <optgroup label="متوسطه دوم">
+                                    <option value="10">دهم</option>
+                                    <option value="11">یازدهم</option>
+                                    <option value="12">دوازدهم</option>
+                                </optgroup>
+
+                                <optgroup label="آزمون های جامع">
+                                    <option value="13">کنکور</option>
+                                </optgroup>
+                            </select>
+                        </div>
+
+                    </div>
+
+
+                    <div id='premium__body__box2' class="premium__body__box">
+
+                        <span id='premium__body__level2' class="premium__body__level premium__body__level-seccond">2</span>
+
+                        <div class="premium__body__box__title">
+                            <label for="grade">مدت زمان اشتراک را انتخاب کن</label>
+                        </div>
+                        <div class="premium__body__box__content">
+
+                            <label class="premium__radio__container">
+                                <input onchange="validatePeriod()" class="premium__radio__input" type="radio" name="premium__period" value="1">
+                                <span class="premium__radio__checkmark"></span>
+                                <div class="premium__radio__content">
+                                    <span class="premium__radio__content__currency">(تومان)</span>
+                                    <span class="premium__radio__content__value">10/000</span>
+                                    <p>اشتراک 1 ماهه</p>
+                                </div>
+                            </label>
+
+                            <label class="premium__radio__container">
+                                <input onchange="validatePeriod()" class="premium__radio__input" type="radio" name="premium__period" value="2">
+                                <span class="premium__radio__checkmark"></span>
+                                <div class="premium__radio__content">
+                                    <span class="premium__radio__content__currency">(تومان)</span>
+                                    <span class="premium__radio__content__value">20/000</span>
+                                    <p>اشتراک 3 ماهه</p>
+                                </div>
+                            </label>
+
+                            <label class="premium__radio__container">
+                                <input onchange="validatePeriod()" class="premium__radio__input" type="radio" name="premium__period" value="3">
+                                <span class="premium__radio__checkmark"></span>
+                                <div class="premium__radio__content">
+                                    <span class="premium__radio__content__currency">(تومان)</span>
+                                    <span class="premium__radio__content__value">35/000</span>
+                                    <p>اشتراک 6 ماهه</p>
+                                </div>
+                            </label>
+
+                            <label class="premium__radio__container">
+                                <input onchange="validatePeriod()" class="premium__radio__input" type="radio" name="premium__period" value="4">
+                                <span class="premium__radio__checkmark"></span>
+                                <div class="premium__radio__content">
+                                    <span class="premium__radio__content__currency">(تومان)</span>
+                                    <span class="premium__radio__content__value">50/000</span>
+                                    <p>اشتراک 9 ماهه</p>
+                                </div>
+                            </label>
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                <div class="premium__footer">
+
+                    <button onclick="activeBtn()" id='premium__footer__button' type="submit" class="premium__footer__button">پرداخت</button>
+
+                </div>
+
+            </form>
+
+        </section>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="./js/getpremium.js"></script>
+</body></html>
