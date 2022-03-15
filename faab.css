@@ -1,0 +1,2898 @@
+* {
+    padding: 0 0;
+    margin: 0 0;
+    font-family: "Anjoman";
+    font-style: normal;
+    scroll-behavior: smooth;
+}
+
+
+.yellow__bg__gradient {
+    background-image: linear-gradient(130deg, #FFDF3F, #FFC13F);
+}
+
+.green__bg__gradient {
+    background-image: linear-gradient(130deg, #3FFF85, #00CC3D);
+}
+
+.red__bg__gradient {
+    background-image: linear-gradient(130deg, #FF6969, #FF4444);
+}
+
+
+
+.faab__intro {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    top: 0;
+    
+}
+
+.faab__smallnav {
+    display: none;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.faab__smallnav__right {
+    display: flex;
+    width: 50%;
+}
+
+.faab__smallnav__right button {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    font-size: 28px;
+    color: white;
+    background: none;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+}
+
+.faab__smallnav__left {
+    display: flex;
+    width: 50%;
+}
+
+.faab__intro__video {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    object-fit: cover;
+    
+}
+
+.faab__nav {
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+    padding: 40px 0;
+}
+
+.faab__nav__link {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    padding: 6px;
+    min-width: 40px;
+    justify-content: center;
+    margin: 0 10px;
+    color: white;
+}
+
+.faab__nav__link:hover,
+.faab__nav__link-active {
+    border-bottom: 2px solid white;
+}
+
+.faab__intro__content {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 768px;
+    height: 100%;
+    justify-content: center;
+    margin-bottom: 100px;
+    box-sizing: border-box;
+    
+}
+
+.faab__intro__content__firstbox__text {
+    display: flex;
+    margin: 50px 0;
+    align-items: center;
+}
+
+.line-a {
+    width: 200px;
+    height: 3px;
+    background-color: white;
+    border: none;
+}
+
+.line-b {
+    display: flex;
+    width: 170px;
+    height: 3px;
+    background-color: white;
+    border: none;
+}
+
+.line-c {
+    display: flex;
+    width: 14px;
+    height: 3px;
+    background-color: white;
+    border: none;
+    margin-right: 16px;
+}
+
+.line-c::before {
+    content: '\25ef';
+    color: #ffffff;
+    position: absolute;
+    margin-top: -10px;
+    margin-right: -16px;
+    font-size: 16px;
+}
+
+.line-d {
+    display: flex;
+    width: 14px;
+    height: 3px;
+    background-color: white;
+    border: none;
+}
+
+.line-e {
+    position: absolute;
+    margin-right: 325px;
+    width: 350px;
+    height: 3px;
+    background-color: white;
+    border: none;
+    margin-top: -130px;
+}
+
+.line-e::after {
+    content: '\25ef';
+    color: white;
+    position: absolute;
+    margin-right: 25px;
+
+}
+
+.faab__intro__content__firstbox__text::after {
+    content: '\25ef';
+    color: white;
+    margin-right: -2px;
+}
+
+.faab__intro__content__firstbox__text::before {
+    content: '\25ef';
+    color: white;
+}
+
+.faab__intro__content__firstbox__text span {
+    background-color: white;
+    font-size: 22px;
+    padding: 6px 14px;
+
+}
+
+/*
+.faab__intro__content__firstbox__text span::after {
+    content: '\25ef';
+    position: absolute;
+    margin-right: -150px;
+    margin-top: 50px;
+    color: white;
+}
+*/
+
+.faab__intro__content__secondbox {
+    display: flex;
+}
+
+.faab__intro__content__secondbox__text {
+    display: flex;
+    align-items: center;
+}
+
+.faab__intro__content__secondbox h1 {
+    background-color: white;
+    padding: 10px 20px;
+    font-size: 70px;
+}
+
+.faab__intro__content__thirdbox {
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.faab__intro__content__thirdbox::before {
+    content: '\25ef';
+    color: white;
+    margin-left: -2px;
+}
+
+.faab__intro__content__thirdbox__right {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: 15px;
+}
+
+.faab__intro__content__thirdbox__right h2 {
+    font-size: 18px;
+    color: #EC0000;
+    padding: 15px 0 5px;
+}
+
+.faab__intro__content__thirdbox__right p {
+    font-size: 14px;
+    padding: 5px 0;
+}
+
+.faab__intro__content__thirdbox__right a {
+    font-size: 12px;
+    color: grey;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 5px 5px;
+    font-weight: 300;
+}
+
+.faab__intro__content__thirdbox__left {
+    display: flex;
+}
+
+.faab__intro__content__thirdbox__left__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid white;
+    text-decoration: none;
+    width: 104px;
+    margin: 0 5px;
+}
+
+.faab__intro__content__thirdbox__left__item h2 {
+    background-color: white;
+    padding: 5px;
+    font-size: 15px;
+    color: black;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.faab__intro__content__thirdbox__left__item a {
+    color: white;
+    font-size: 11px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.faab__intro__content__thirdbox__left__item a > i {
+    margin-right: 5px;
+}
+
+.faab__intro__content__thirdbox__left__link {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    height: 70px;
+    width: 110px;
+    align-items: center;
+}
+
+.faab__intro__content__thirdbox__left__link h3 {
+    display: flex;
+    background-color: white;
+    padding: 5px 0;
+    width: 100%;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+.line__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.line-box-row {
+    display: flex;
+}
+
+.line-001 {
+    width: 400px;
+    border: none;
+    height: 3px;
+    background-color: #848484;
+}
+
+.line-001::after {
+    content: '\25ef';
+    color: #848484;
+    position: absolute;
+    margin-right: 398px;
+    margin-top: -10px;
+
+}
+
+.line-002::after {
+    content: '\25ef';
+    color: #848484;
+    position: absolute;
+    margin-right: 98px;
+    margin-top: -10px;
+
+}
+
+.line-002 {
+    width: 100px;
+    border: none;
+    height: 3px;
+    background-color: #848484;
+}
+
+.line-003 {
+    width: 3px;
+    border: none;
+    height: 30px;
+    background-color: #848484;
+    margin-right: 100px;
+}
+
+.line-004 {
+    width: 3px;
+    border: none;
+    height: 30px;
+    background-color: #848484;
+    margin-right: 150px;
+}
+
+.line-005 {
+    width: 160px;
+    border: none;
+    height: 3px;
+    background-color: #FFDF3F;
+}
+
+.line-005::after {
+    content: '\25ef';
+    color: #FFDF3F;
+    position: absolute;
+    margin-right: 158px;
+    margin-top: -10px;
+}
+
+.line-006 {
+    width: 100px;
+    border: none;
+    height: 3px;
+    background-color: #FFDF3F;
+
+}
+
+.line-006::after {
+    content: '\25ef';
+    color: #FFDF3F;
+    position: absolute;
+    margin-right: 98px;
+    margin-top: -10px;
+}
+
+.line-007 {
+    min-width: 3px;
+    width: 3px;
+    border: none;
+    height: 70px;
+    background-color: white;
+}
+
+.line-007::after {
+    content: '\25ef';
+    color: white;
+    position: absolute;
+    margin-right: -7px;
+    margin-top: 65px;
+}
+
+.line-008 {
+    
+    width: 3px;
+    min-width: 3px;
+    border: none;
+    height: 30px;
+    background-color: white;
+}
+
+.line-008::after {
+    content: '\25ef';
+    color: white;
+    position: absolute;
+    margin-right: -7px;
+    margin-top: 25px;
+}
+
+.line-009 {
+    width: 3px;
+    border: none;
+    height: 35px;
+    background-color: white;
+    margin-right: 80px;
+}
+
+.line-011 {
+    width: 160px;
+    border: none;
+    height: 3px;
+    background-color: #3FFF85;
+}
+
+.line-011::after {
+    content: '\25ef';
+    color: #3FFF85;
+    position: absolute;
+    margin-right: 158px;
+    margin-top: -10px;
+}
+
+.line-012 {
+    width: 100px;
+    border: none;
+    height: 3px;
+    background-color: #3FFF85;
+
+}
+
+.line-012::after {
+    content: '\25ef';
+    color: #3FFF85;
+    position: absolute;
+    margin-right: 98px;
+    margin-top: -10px;
+}
+
+
+.line-013 {
+    width: 160px;
+    border: none;
+    height: 3px;
+    background-color: #FF4444;
+    margin-right: 48px;
+}
+
+.line-013::before {
+    content: '\25ef';
+    color: #FF4444;
+    position: absolute;
+    margin-top: -10px;
+    margin-right: -12px;
+}
+
+.line-014 {
+    width: 100px;
+    border: none;
+    height: 3px;
+    margin-right: 108px;
+    background-color: #FF4444;
+
+
+}
+
+.line-014::before {
+    content: '\25ef';
+    color: #FF4444;
+    position: absolute;
+    margin-right: -12px;
+    margin-top: -10px;
+}
+
+.line-015 {
+    width: 3px;
+    border: none;
+    height: 35px;
+    background-color: white;
+    margin-right: 280px;
+}
+
+
+.line-016 {
+    width: 100px;
+    border: none;
+    height: 3px;
+    background-color: #848484;
+
+}
+
+.line-016::after {
+    content: '\25ef';
+    color: #848484;
+    position: absolute;
+    margin-right: 98px;
+    margin-top: -10px;
+}
+
+.line-017 {
+    width: 230px;
+    border: none;
+    height: 3px;
+    background-color: #848484;
+}
+
+.line-017::after {
+    content: '\25ef';
+    color: #848484;
+    position: absolute;
+    margin-right: 228px;
+    margin-top: -10px;
+}
+
+.line-018 {
+    height: 30px;
+    margin-top: -32px;
+    border: none;
+    width: 3px;
+    background-color: white;
+}
+
+.line-019 {
+    height: 30px;
+    margin-top: -32px;
+    border: none;
+    width: 3px;
+    background-color: white;
+}
+
+.line-020 {
+    height: 30px;
+    margin-top: -32px;
+    border: none;
+    width: 3px;
+    background-color: white;
+}
+
+.line-021 {
+    height: 30px;
+    margin-top: -40px;
+    border: none;
+    width: 3px;
+    background-color: white;
+    margin-right: 120px;
+}
+
+.line-022 {
+    width: 130px;
+    border: none;
+    height: 3px;
+    background-color: #5B5B5B;
+}
+
+.line-022::after {
+    content: '\25ef';
+    color: #5B5B5B;
+    position: absolute;
+    margin-right: 128px;
+    margin-top: -10px;
+}
+
+.line-023 {
+    width: 160px;
+    border: none;
+    height: 3px;
+    background-color: #5B5B5B;
+}
+
+.line-023::after {
+    content: '\25ef';
+    color: #5B5B5B;
+    position: absolute;
+    margin-right: 158px;
+    margin-top: -10px;
+}
+
+.line-024 {
+    width: 120px;
+    border: none;
+    height: 3px;
+    background-color: #5B5B5B;
+}
+
+.line-024::after {
+    content: '\25ef';
+    color: #5B5B5B;
+    position: absolute;
+    margin-right: 118px;
+    margin-top: -10px;
+}
+
+.line-025 {
+    width: 3px;
+    border: none;
+    height: 94px;
+    background-color: #ffffff;
+    position: absolute;
+    margin-right: 7px;
+    margin-top: 108px;
+}
+
+.line-026 {
+    margin-right: 14px;
+    display: flex;
+    width: 16px;
+    height: 3px;
+    background-color: white;
+    border: none;
+    margin-top: 60px;
+}
+
+.line-026::before {
+    content: '\25ef';
+    color: #ffffff;
+    position: absolute;
+    margin-top: -10px;
+    margin-right: -14px;
+    font-size: 16px;
+}
+
+.line-027 {
+    width: 3px;
+    border: none;
+    height: 150px;
+    background-color: #ffffff;
+    position: absolute;
+    margin-right: 7px;
+    margin-top: 227px;
+}
+
+.line-28 {
+    width: 3px;
+    border: none;
+    height: 80px;
+    background-color: #ffffff;
+    position: absolute;
+    margin-right: 122px;
+    margin-top: -112px;
+}
+
+.line-29 {
+    width: 3px;
+    border: none;
+    height: 80px;
+    background-color: #ffffff;
+    position: absolute;
+    margin-right: 7px;
+    margin-top: -112px;
+    margin-right: 246px;
+}
+
+.faab__about {
+    display: flex;
+    flex-direction: column;
+    background-color: #232323;
+    align-items: center;
+    padding: 100px 10px;
+}
+
+.faab__about__title {
+    display: flex;
+    width: 100%;
+    max-width: 768px;
+
+}
+
+.faab__about__title h2 {
+    display: flex;
+    background-color: #848484;
+    padding: 10px 12px;
+}
+
+.faab__about__content {
+    display: flex;
+    flex-direction: column;
+    max-width: 768px;
+
+}
+
+.faab__about__content__paragraph {
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.faab__about__content__paragraph p {
+    line-height: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.faab__link {
+    display: flex;
+    justify-content: center;
+    background-color: #232323;
+    padding: 100px 0;
+}
+
+.faab__link__box {
+    display: flex;
+    max-width: 768px;
+    padding: 0 10px;
+}
+
+.faab__link__right {
+    display: flex;
+    margin: 5px;
+    background-image: url(../image/Group16.png);
+    padding: 18px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.faab__link__right img {
+    width: 330px;
+    height: 330px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.faab__link__left {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: center;
+}
+
+.faab__link__header {
+    display: flex;
+}
+
+.faab__link__header h2 {
+    font-size: 28px;
+    background-color: white;
+    padding: 4px 8px;
+}
+#faab__link__header__second {
+    justify-content: flex-end;
+}
+.faab__link__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.faab__link__content__title {
+    display: flex;
+}
+
+.faab__link__content__title h3 {
+    background-color: white;
+    width: 100%;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.faab__link__content__title {
+    display: flex;
+}
+
+.faab__link__content__paragraph {
+    display: flex;
+
+}
+
+.faab__link__content__paragraph p {
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+}
+
+
+.faab__link__btnbox {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.faab__link__btnbox-right {
+    display: flex;
+    justify-content: flex-start;
+
+    padding: 20px;
+}
+
+.faab__link__btnbox a,
+.faab__link__btnbox-right a {
+    border: 2px solid white;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: .3s;
+}
+#faab__link__btn__classmate:hover {
+    background-color: #FFDF3F;
+    border: 2px solid #FFDF3F;
+    color: black;
+}
+#faab__link__btn__education:hover {
+    background-color: #ff5a5a;
+    border: 2px solid #ff5a5a;
+    color: black;
+}
+#faab__link__btn__sharing:hover {
+    background-color: #3FFF85;
+    border: 2px solid #3FFF85;
+    color: black;
+}
+
+
+
+
+
+
+
+
+.faab__blog {
+    display: flex;
+    justify-content: center;
+    padding: 100px 10px;
+    background-color: #232323;
+}
+
+.faab__blog__box {
+    display: flex;
+    width: 100%;
+    max-width: 768px;
+    flex-direction: column;
+}
+
+.faab__blog__title {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.faab__blog__title h2 {
+    background-color: #848484;
+    padding: 4px 15px;
+}
+
+.faab__blog__content {
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+    padding-bottom: 10px;
+}
+
+.faab__blog__content::-webkit-scrollbar {
+    height: 1px;
+}
+
+/* Track */
+.faab__blog__content::-webkit-scrollbar-track {
+    background: #3b3b3b;
+}
+
+/* Handle */
+.faab__blog__content::-webkit-scrollbar-thumb {
+    background: #080808;
+}
+
+
+.faab__blog__content__item {
+    display: flex;
+    flex-direction: column;
+    width: calc((768px / 3) - 10px);
+    text-decoration: none;
+    color: white;
+    background-color: #2E2E2E;
+}
+
+.faab__blog__content__item__image {
+    width: 100%;
+    height: 180px;
+}
+
+.faab__blog__content__item__image img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.faab__blog__content__item__details {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.faab__blog__content__item__details h3 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.faab__blog__content__item__details p {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.faab__footer {
+    background-color: #212121;
+    display: flex;
+    padding: 80px 0 120px;
+    justify-content: center;
+}
+
+.faab__footer__box {
+    display: flex;
+    max-width: 768px;
+    justify-content: space-between;
+}
+
+.faab__footer__right {
+    display: flex;
+    flex-direction: column;
+    width: calc((768px / 2) - 20px);
+    margin: 0 10px;
+
+}
+
+.faab__footer__left {
+    display: flex;
+    flex-direction: column;
+    width: calc((768px / 2) - 20px);
+    margin: 0 10px;
+
+}
+
+.faab__footer__item {
+    display: flex;
+    flex-direction: column;
+    width: calc((768px / 2) - 20px);
+    min-height: 160px;
+}
+
+.faab__footer__item__title {
+    display: flex;
+    flex-direction: column;
+}
+
+.faab__footer__item__title h2 {
+    font-size: 20px;
+    color: white;
+    padding: 8px 0;
+}
+
+.faab__footer__item__content {
+    display: flex;
+    color: white;
+}
+
+.faab__footer__item__category {
+    display: flex;
+    padding: 20px 0;
+
+}
+
+.faab__footer__item__category a {
+    font-size: 14px;
+
+    background-color: #1A1A1A;
+    text-decoration: none;
+    color: white;
+    padding: 4px 8px;
+    margin-left: 10px;
+}
+
+.faab__footer__paragraph {
+    display: flex;
+    padding: 20px 0;
+}
+
+.faab__footer__paragraph p {
+    font-size: 13px;
+    line-height: 2;
+    font-weight: 300;
+}
+
+.faab__footer__sign {
+    display: flex;
+
+}
+
+.faab__footer__sign a {
+    background-color: white;
+    margin: 0 10px;
+
+}
+
+
+.faab__footer__item__contact__details {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0
+}
+
+.faab__footer__item__contact__details p {
+    font-size: 13px;
+    padding: 5px 0;
+}
+
+.faab__footer__item__social {
+    display: flex;
+    flex-direction: column;
+}
+
+.faab__footer__item__social h4 {
+    font-size: 13px;
+    font-weight: 400;
+    padding: 5px 0;
+}
+
+.faab__footer__item__social__box {
+    display: flex;
+    padding: 10px 0;
+}
+
+.faab__footer__item__social__box a {
+    font-size: 20px;
+    margin-left: 20px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------- Faab Blog Style Sheet -------------------*/
+
+
+
+.faab__header {
+    display: flex;
+    justify-content: center;
+    background-color: #232323;
+}
+
+.faab__blog__hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #232323;
+    padding: 40px 10px 0;
+
+}
+
+.faab__blog__breadcrumb {
+    display: flex;
+    width: 100%;
+    max-width: 768px;
+    background-color: #2E2E2E;
+
+}
+
+ul.faab__blog__breadcrumb__list {
+    padding: 10px 16px;
+    list-style: none;
+}
+
+/* Display list items side by side */
+ul.faab__blog__breadcrumb__list li {
+    display: inline;
+    font-size: 14px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.faab__blog__breadcrumb__list li + li:before {
+    padding: 2px;
+    color: #505050;
+    content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.faab__blog__breadcrumb__list li a {
+    color: #8A8A8A;
+    text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.faab__blog__breadcrumb__list li a:hover {
+    color: #cecece;
+    text-decoration: underline;
+}
+
+
+
+.faab__blog__intro {
+    display: flex;
+    width: 100%;
+    max-width: 768px;
+    padding: 25px 0;
+
+}
+
+
+.faab__blog__intro__right {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left: 25px;
+}
+
+.faab__blog__intro__right__card {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.faab__blog__intro__right__image {
+    display: flex;
+    width: 100%;
+    height: 350px;
+
+}
+
+.faab__blog__intro__right__image img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.faab__blog__intro__right__details {
+    display: flex;
+    flex-direction: column;
+    background-color: #2E2E2E;
+    padding: 10px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.faab__blog__intro__right__title {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.faab__blog__intro__right__paragraph {
+    font-size: 12px;
+    line-height: 2;
+    font-weight: 300;
+}
+
+.faab__blog__intro__right__footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 0;
+}
+
+.faab__blog__intro__right__footer p {
+    font-size: 12px;
+    font-weight: 300;
+    color: #8A8A8A;
+}
+
+
+.faab__blog__intro__left {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.faab__blog__intro__left__title {
+    display: flex;
+    padding: 10px 0;
+
+}
+
+.faab__blog__intro__left__title h2 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.faab__blog__intro__left__details {
+    display: flex;
+
+}
+
+.faab__blog__intro__left__details p {
+    font-size: 12px;
+    line-height: 2;
+}
+
+
+.faab__blog__banner {
+    display: flex;
+    justify-content: center;
+    background-color: #232323;
+    padding: 10px;
+
+}
+
+.faab__blog__banner img {
+    width: 100%;
+    max-width: 768px;
+    height: 170px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+.faab__blog__cards__section {
+    display: flex;
+    flex-direction: column;
+    background-color: #232323;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.faab__blog__cards__box {
+    display: flex;
+    width: 100%;
+    max-width: 768px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+
+}
+
+.faab__blog__card {
+    display: flex;
+    flex-direction: column;
+    background-color: #2E2E2E;
+    margin: 10px;
+    width: calc((768px / 3) - 20px);
+    text-decoration: none;
+    color: white;
+}
+
+.faab__blog__card__image {
+    display: flex;
+    width: 100%;
+    height: 160px;
+}
+
+.faab__blog__card__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.faab__blog__card__details {
+    padding: 10px;
+
+}
+
+.faab__blog__card__details h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 500
+}
+
+.faab__blog__card__details p {
+    font-size: 11px;
+    line-height: 2;
+    font-weight: 300;
+
+}
+
+
+.faab__blog__card__footer {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.faab__blog__card__footer p {
+    font-size: 12px;
+    font-weight: 300;
+    color: #8A8A8A;
+}
+
+
+
+.faab__blog__pagination {
+    display: flex;
+    direction: ltr;
+    padding: 20px;
+}
+
+.faab__blog__pagination a {
+    display: flex;
+    min-width: 40px;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    color: #7A7A7A;
+    text-decoration: none;
+
+}
+
+.faab__blog__pagination-active {
+    background-color: #2E2E2E;
+    color: white !important;
+}
+
+.faab__blog__pages__content__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #232323;
+    padding: 25px 0;
+}
+
+.faab__blog__pages__intro__image {
+    width: 100%;
+    max-width: 768px;
+
+}
+
+.faab__blog__pages__content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 768px;
+    background-color: #2E2E2E;
+    color: white;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.faab__blog__pages__content img {
+    margin: 20px 0;
+}
+
+.faab__blog__pages__content h1 {
+    padding: 20px 0px;
+    font-size: 20px;
+}
+
+.faab__blog__pages__content p {
+    font-size: 14px;
+    font-weight: 200;
+    padding: 20px 0;
+    line-height: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------- Faab Login --------------------*/
+
+.faab__login__background {
+    background-color: #2D2D2D;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.faab__login {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #464646;
+    width: 100%;
+    max-width: 400px;
+    margin: 10px;
+}
+
+.faab__login__logobox {
+    display: flex;
+    padding: 50px 10px;
+    justify-content: center;
+}
+
+.faab__login__logobox img {
+    width: 50px;
+    height: 50px;
+    border-radius: 9px;
+}
+.faab__login__title {
+    display: flex;
+    align-items: center;
+    padding: 10px 30px 20px;
+    
+}
+.faab__login__title i {
+    font-size: 28px;
+    margin-left: 5px;
+    color: white;
+}
+.faab__login__title h1 {
+    font-size: 24px;
+    color: white;
+}
+.faab__login__content {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+}
+.faab__login__form {
+    display: flex;
+    flex-direction: column;
+}
+.faab__login__form__firstbox {
+    display: flex;
+    flex-direction: column;
+}
+.faab__login__form__firstbox label {
+    font-size: 12px;
+    color: #ABABAB;
+    margin-bottom: 5px;
+}
+.faab__login__form__firstbox input {
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 10px;
+    height: 50px;
+    background-color: #808080;
+    padding: 0 15px;
+    text-align: left;
+    direction: ltr;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.faab__login__form__errorbox {
+    display: flex;
+    height: 50px;
+}
+.faab__login__form__errorbox span {
+    display: none;
+    
+    font-size: 14px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 0 8px;
+    border-radius: 6px;
+    color: #E98F8F;
+    height: 30px;
+    align-items: center;
+}
+
+.faab__login__form button {
+    background-color: #FF2626;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    height: 50px;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+}
+.faab__login__policy__text {
+    padding: 20px 0;
+    color: #ABABAB;
+    font-size: 12px;
+    line-height: 2;
+    text-align: center;
+}
+.faab__login__policy__text a {
+    text-decoration: none;
+    color: #FF3D3D;
+}
+
+
+.faab__login__product__logobox {
+    display: flex;
+    padding: 20px 10px 40px;;
+    justify-content: center;
+}
+.faab__login__product__logobox a {
+    display: flex;
+    margin: 0 10px;
+}
+.faab__login__product__logobox a > img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+
+    .faab__smallnav {
+        display: flex;
+    }
+
+    .faab__nav {
+        display: none;
+    }
+
+
+
+
+
+
+
+
+    .faab__intro__content__firstbox__text {
+        margin: 20px 0;
+    }
+
+    .line-a {
+        width: 140px;
+    }
+
+    .line-b {
+        width: 140px;
+    }
+
+    .line-e {
+        margin-right: 250px;
+        width: 320px;
+        margin-top: -150px;
+    }
+
+    .faab__intro__content__firstbox__text span {
+        font-size: 16px;
+    }
+
+    .faab__intro__content__secondbox h1 {
+        font-size: 57px;
+    }
+
+    .faab__intro__content__thirdbox {
+        align-items: center;
+        margin: 20px 0;
+    }
+
+    .faab__intro__content__thirdbox__right {
+        width: 220px;
+    }
+
+    .faab__intro__content__thirdbox__right h2 {
+        font-size: 15px;
+    }
+
+    .faab__intro__content__thirdbox__right p {
+        font-size: 12px;
+    }
+
+    .faab__intro__content__thirdbox__left__item {
+        width: 90px;
+    }
+
+    .faab__intro__content__thirdbox__left__item h2 {
+        font-size: 12px;
+    }
+
+    .faab__intro__content__thirdbox__left__item a {
+        font-size: 10px;
+    }
+
+    .faab__intro__content__thirdbox__left__item a > i {
+        margin-right: 5px;
+    }
+
+
+
+    .line-018 {
+        height: 46px;
+        margin-top: -46px;
+    }
+
+    .line-019 {
+        height: 46px;
+        margin-top: -46px;
+    }
+
+    .line-020 {
+        height: 46px;
+        margin-top: -46px;
+    }
+
+    .line-025 {
+        height: 59px;
+        margin-top: 70px;
+    }
+
+    .line-026 {
+        margin-top: 40px;
+    }
+
+    .line-027 {
+        margin-top: 199px;
+        height: 142px;
+    }
+
+    .line-28 {
+        height: 70px;
+        margin-right: 102px;
+    }
+
+    .line-29 {
+        height: 70px;
+        margin-right: 206px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .line-001 {
+        width: 80px;
+
+
+
+        border: none;
+        height: 3px;
+        background-color: #848484;
+    }
+
+    .line-001::after {
+        margin-right: 78px;
+
+
+        content: '\25ef';
+        color: #848484;
+        position: absolute;
+        margin-top: -10px;
+    }
+
+    .line-002::after {
+        margin-right: 58px;
+
+
+
+        content: '\25ef';
+        color: #848484;
+        position: absolute;
+        margin-top: -10px;
+
+    }
+
+    .line-002 {
+        width: 60px;
+
+
+
+        border: none;
+        height: 3px;
+        background-color: #848484;
+    }
+
+    .line-003 {
+        margin-right: 60px;
+        height: 20px;
+
+        width: 3px;
+        border: none;
+
+        background-color: #848484;
+
+    }
+
+    .line-004 {
+        margin-right: 90px;
+        height: 20px;
+
+
+        width: 3px;
+        border: none;
+        background-color: #848484;
+
+    }
+
+    .line-005 {
+        width: 70px;
+
+
+        border: none;
+        height: 3px;
+        background-color: #FFDF3F;
+    }
+
+    .line-005::after {
+        margin-right: 68px;
+
+
+
+        content: '\25ef';
+        color: #FFDF3F;
+        position: absolute;
+
+        margin-top: -10px;
+    }
+
+    .line-006 {
+        width: 50px;
+
+
+        border: none;
+        height: 3px;
+        background-color: #FFDF3F;
+
+    }
+
+    .line-006::after {
+        margin-right: 48px;
+
+
+
+        content: '\25ef';
+        color: #FFDF3F;
+        position: absolute;
+        margin-top: -10px;
+    }
+
+    .line-007 {
+        width: 3px;
+        border: none;
+        height: 70px;
+        background-color: white;
+    }
+
+    .line-007::after {
+        content: '\25ef';
+        color: white;
+        position: absolute;
+        margin-right: -8px;
+        margin-top: 65px;
+    }
+
+    .line-008 {
+        width: 3px;
+        border: none;
+        height: 30px;
+        background-color: white;
+    }
+
+    .line-008::after {
+        content: '\25ef';
+        color: white;
+        position: absolute;
+        margin-right: -8px;
+        margin-top: 25px;
+    }
+
+    .line-009 {
+        width: 3px;
+        border: none;
+        height: 15px;
+        background-color: white;
+        margin-right: 40px;
+    }
+
+    .line-011 {
+        width: 70px;
+        border: none;
+        height: 3px;
+        background-color: #3FFF85;
+    }
+
+    .line-011::after {
+        content: '\25ef';
+        color: #3FFF85;
+        position: absolute;
+        margin-right: 68px;
+        margin-top: -10px;
+    }
+
+    .line-012 {
+        width: 50px;
+
+
+
+        border: none;
+        height: 3px;
+        background-color: #3FFF85;
+
+    }
+
+    .line-012::after {
+        margin-right: 48px;
+
+
+
+
+        content: '\25ef';
+        color: #3FFF85;
+        position: absolute;
+        margin-top: -10px;
+    }
+
+
+    .line-013 {
+        width: 70px;
+        margin-right: 28px;
+
+
+        border: none;
+        height: 3px;
+        background-color: #FF4444;
+
+    }
+
+    .line-013::before {
+        content: '\25ef';
+        color: #FF4444;
+        position: absolute;
+        margin-top: -10px;
+        margin-right: -15px;
+    }
+
+    .line-014 {
+        width: 50px;
+        margin-right: 48px;
+
+
+
+        border: none;
+        height: 3px;
+
+        background-color: #FF4444;
+
+
+    }
+
+    .line-014::before {
+        content: '\25ef';
+        color: #FF4444;
+        position: absolute;
+        margin-right: -15px;
+        margin-top: -10px;
+    }
+
+    .line-015 {
+        margin-right: auto;
+        margin-left: 40px;
+        height: 15px;
+
+
+
+
+        width: 3px;
+        border: none;
+        background-color: white;
+
+    }
+
+
+    .line-016 {
+        width: 60px;
+
+
+
+        border: none;
+        height: 3px;
+        background-color: #848484;
+
+    }
+
+    .line-016::after {
+        margin-right: 58px;
+
+
+
+        content: '\25ef';
+        color: #848484;
+        position: absolute;
+
+        margin-top: -10px;
+    }
+
+    .line-017 {
+        width: 120px;
+
+
+
+
+        border: none;
+        height: 3px;
+        background-color: #848484;
+    }
+
+    .line-017::after {
+        margin-right: 118px;
+
+
+
+
+        content: '\25ef';
+        color: #848484;
+        position: absolute;
+        margin-top: -10px;
+    }
+
+
+
+
+    .line-022 {
+        width: 130px;
+        border: none;
+        height: 3px;
+        background-color: #5B5B5B;
+    }
+
+    .line-022::after {
+        content: '\25ef';
+        color: #5B5B5B;
+        position: absolute;
+        margin-right: 128px;
+        margin-top: -10px;
+    }
+
+    .line-023 {
+        width: 160px;
+        border: none;
+        height: 3px;
+        background-color: #5B5B5B;
+    }
+
+    .line-023::after {
+        content: '\25ef';
+        color: #5B5B5B;
+        position: absolute;
+        margin-right: 158px;
+        margin-top: -10px;
+    }
+
+    .line-024 {
+        width: 120px;
+        border: none;
+        height: 3px;
+        background-color: #5B5B5B;
+    }
+
+    .line-024::after {
+        content: '\25ef';
+        color: #5B5B5B;
+        position: absolute;
+        margin-right: 118px;
+        margin-top: -10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .faab__about {
+        display: flex;
+        flex-direction: column;
+        background-color: #232323;
+        align-items: center;
+        padding: 100px 10px;
+    }
+
+    .faab__about__title {
+        display: flex;
+        width: 100%;
+        max-width: 768px;
+
+    }
+
+    .faab__about__title h2 {
+        font-size: 13px;
+
+
+
+        display: flex;
+        background-color: #848484;
+        padding: 10px 12px;
+    }
+
+    .faab__about__content {
+        display: flex;
+        flex-direction: column;
+        max-width: 768px;
+
+    }
+
+    .faab__about__content__paragraph {
+        padding: 10px;
+    }
+
+    .faab__about__content__paragraph p {
+        line-height: 1.8;
+        font-size: 13px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .faab__link {
+        padding: 60px 0;
+
+    }
+
+    .faab__link__right {
+        justify-content: center;
+    }
+
+    .faab__link__right img {
+        width: 40vw;
+        height: 40vw;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+
+    #faab__link__header__second {
+        justify-content: flex-end;
+    }
+
+    .faab__link__header h2 {
+        font-size: 20px;
+    }
+
+    .faab__link__content__title h3 {
+        font-size: 15px;
+        font-weight: 400;
+
+    }
+
+    .faab__link__content__paragraph p {
+        font-size: 12px;
+    }
+
+    .faab__link__btnbox {
+        padding: 20px 10px;
+    }
+
+    .faab__link__btnbox-right {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .faab__link__left {
+        min-width: 
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .faab__blog {
+        display: flex;
+        justify-content: center;
+        padding: 100px 10px;
+        background-color: #232323;
+    }
+
+    .faab__blog__box {
+        display: flex;
+        width: 100%;
+        max-width: 768px;
+        flex-direction: column;
+    }
+
+    .faab__blog__title {
+        display: flex;
+        margin-bottom: 50px;
+    }
+
+    .faab__blog__title h2 {
+        font-size: 18px;
+
+
+        background-color: #848484;
+        padding: 4px 15px;
+    }
+
+    .faab__blog__content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .faab__blog__content__item {
+        width: calc((100% /3) - 10px);
+
+
+
+
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        color: white;
+        background-color: #2E2E2E;
+    }
+
+    .faab__blog__content__item__image {
+        height: 23vw;
+
+
+
+        width: 100%;
+
+    }
+
+    .faab__blog__content__item__image img {
+        height: 100%;
+
+
+
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .faab__blog__content__item__details {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .faab__blog__content__item__details h3 {
+        font-size: 13px;
+
+
+
+
+        margin-bottom: 10px;
+    }
+
+    .faab__blog__content__item__details p {
+        font-size: 12px;
+
+
+
+
+        font-weight: 200;
+        line-height: 2;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*    ------------------ Blog Page -------------------*/
+
+
+
+    .faab__blog__hero {
+        padding: 40px 10px 0;
+    }
+
+    ul.faab__blog__breadcrumb__list {
+        padding: 5px 10px;
+    }
+
+    /* Display list items side by side */
+    ul.faab__blog__breadcrumb__list li {
+        font-size: 12px;
+    }
+
+    .faab__blog__intro {
+        flex-direction: column;
+        padding: 15px 0;
+    }
+
+    .faab__blog__intro__right {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .faab__blog__intro__right__image {
+        height: 60vw;
+    }
+
+    .faab__blog__intro__right__footer {
+        padding: 5px 0;
+    }
+
+    .faab__blog__intro__left {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .faab__blog__banner img {
+        height: 22vw;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .faab__blog__cards__box {
+        justify-content: space-around;
+    }
+
+    .faab__blog__card {
+        width: calc((100vw / 2) - 36px);
+    }
+
+    .faab__blog__card__image {
+        height: 30vw;
+
+    }
+
+    .faab__blog__card__image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .faab__blog__card__details {
+        padding: 10px;
+
+    }
+
+    .faab__blog__card__details h2 {
+        font-size: 16px;
+        margin-bottom: 10px;
+        font-weight: 500
+    }
+
+    .faab__blog__card__details p {
+        font-size: 11px;
+        line-height: 2;
+        font-weight: 300;
+
+    }
+
+
+    .faab__blog__card__footer {
+        padding: 10px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .faab__blog__card__footer p {
+        font-size: 12px;
+        font-weight: 300;
+        color: #8A8A8A;
+    }
+
+
+    .faab__blog__pagination {
+        display: flex;
+        direction: ltr;
+        padding: 20px;
+    }
+
+    .faab__blog__pagination a {
+        display: flex;
+        min-width: 40px;
+        width: 40px;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+        color: #7A7A7A;
+        text-decoration: none;
+
+    }
+
+    .faab__blog__pagination-active {
+        background-color: #2E2E2E;
+        color: white !important;
+    }
+
+    .faab__blog__pages__content__section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #232323;
+        padding: 25px 0;
+    }
+
+    .faab__blog__pages__intro__image {
+        width: 100%;
+        max-width: 768px;
+
+    }
+
+    .faab__blog__pages__content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 768px;
+        background-color: #2E2E2E;
+        color: white;
+        padding: 30px;
+        box-sizing: border-box;
+    }
+
+    .faab__blog__pages__content img {
+        margin: 20px 0;
+    }
+
+    .faab__blog__pages__content h1 {
+        padding: 20px 0px;
+        font-size: 20px;
+    }
+
+    .faab__blog__pages__content p {
+        font-size: 14px;
+        font-weight: 200;
+        padding: 20px 0;
+        line-height: 2;
+    }
+
+
+
+
+
+
+    /*    --------------- Faab Blog Pages ---------------*/
+
+    .faab__blog__pages__content {
+        padding: 10px;
+    }
+
+
+
+
+
+
+
+
+    /*    ------------------- Faab Footer ------------------*/
+
+
+    .faab__footer {
+        padding: 60px 0 100px;
+    }
+
+    .faab__footer__box {
+        flex-direction: column;
+    }
+
+    .faab__footer__right {
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0;
+        padding: 0 10px;
+    }
+
+    .faab__footer__left {
+        margin: 0;
+        width: 100%;
+        flex-direction: row-reverse;
+        box-sizing: border-box;
+        padding: 0 10px;
+    }
+
+    .faab__footer__item {
+        width: 100%;
+        box-sizing: border-box;
+        min-height: 0;
+        margin: 10px 0;
+
+    }
+
+    .faab__footer__item__title h2 {
+        font-size: 15px;
+    }
+
+    .faab__footer__sign {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .faab__footer__sign a {
+        width: 90px;
+        margin: 5px 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .faab__footer__sign a > img {
+        width: 100%;
+    }
+
+    .faab__footer__item__social__box a {
+        font-size: 24px;
+        margin-left: 30px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+@media only screen and (max-width: 640px) {
+
+
+
+    .line-a {
+        width: 35px;
+        height: 1px;
+    }
+
+    .line-b {
+        width: 35px;
+        height: 1px;
+    }
+
+    .line-c {
+        height: 1px;
+        width: 12px;
+    }
+
+    .line-c::before {
+        font-size: 14px;
+        margin-top: -9px;
+        margin-right: -16px;
+    }
+
+    .line-d {
+        height: 14px;
+        width: 1px;
+    }
+
+    .line-e {
+        display: none;
+    }
+
+    .faab__intro__content__firstbox__text::after {
+        font-size: 14px;
+        margin-top: 2px;
+    }
+
+    .faab__intro__content__firstbox__text::before {
+        font-size: 14px;
+        margin-top: 2px;
+        
+    }
+
+    .faab__intro__content__firstbox__text span {
+        font-size: 11px;
+    }
+
+    .faab__intro__content__secondbox h1 {
+        font-size: 25px;
+        padding: 6px 10px;
+    }
+
+    .faab__intro__content__thirdbox {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .faab__intro__content__thirdbox::before {
+        display: none;
+    }
+
+    .faab__intro__content__thirdbox__right {
+        width: 262px;
+        margin-left: 0;
+    }
+
+    .faab__intro__content__thirdbox__right h2 {
+        font-size: 14px;
+        padding: 10px 0 5px;
+    }
+
+    .faab__intro__content__thirdbox__right p {
+        font-size: 12px;
+    }
+
+    .faab__intro__content__thirdbox__right a {
+        padding: 5px 5px 0px;
+    }
+
+    .faab__intro__content__thirdbox__left {
+        margin-top: 20px;
+    }
+
+    .faab__intro__content__thirdbox__left__item {
+        width: 78px;
+    }
+
+    .faab__intro__content__thirdbox__left__item h2 {
+        font-size: 11px;
+    }
+
+
+
+
+
+
+
+    .line-018 {
+        width: 1px;
+        height: 22px;
+        margin-top: -22px;
+    }
+    .line-019 {
+        width: 1px;
+        height: 22px;
+        margin-top: -22px;
+    }
+    .line-020 {
+        width: 1px;
+        height: 22px;
+        margin-top: -22px;
+    }
+    .line-021 {
+        display: none;
+    }
+    .line-025 {
+        width: 1px;
+        height: 50px;
+        margin-top: 61px;
+        margin-right: 7px;
+    }
+    .line-026 {
+        display: none;
+    }
+    .line-026::before {
+        display: none;
+    }
+    .line-027 {
+        display: none;
+    }
+    .line-28 {
+        display: none;
+    }
+    .line-29 {
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .faab__blog__content__item {
+        width: calc((100% /2) - 10px);
+        min-width: calc((100% /2) - 10px);
+        margin: 0 5px;
+
+    }
+
+    .faab__blog__content__item__image {
+        height: 33vw;
+    }
+
+
+}
+
+
+
+@media only screen and (max-width: 480px) {
+
+    .faab__blog__cards__box {
+        justify-content: space-around;
+    }
+
+    .faab__blog__card {
+        width: calc((100vw) - 36px);
+    }
+
+    .faab__blog__card__image {
+        height: 60vw;
+
+    }
+
+    .faab__blog__card__details h2 {
+        font-size: 15px;
+        margin-bottom: 8px;
+    }
+
+    .faab__blog__card__footer p {
+        font-size: 11px;
+    }
+
+    .faab__blog__pagination {
+        padding: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .faab__link {
+        padding: 50px 0;
+    }
+
+    .faab__link__box {
+        flex-direction: column;
+    }
+
+    #faab__link__box__second {
+        flex-direction: column-reverse;
+    }
+
+    .faab__link__right {
+        margin-bottom: 50px;
+        padding: 0;
+    }
+
+    .faab__link__right img {
+        width: 60vw;
+        height: 60vw;
+    }
+
+    .faab__link__btnbox {
+        justify-content: center;
+    }
+
+    .faab__link__btnbox-right {
+        justify-content: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .faab__blog__content__item {
+        width: 100%;
+        min-width: 100%;
+    }
+
+    .faab__blog__content__item__image {
+        height: 63vw;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
